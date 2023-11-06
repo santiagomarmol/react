@@ -1,0 +1,17 @@
+.App{
+    width: 100%;
+    padding: 10px 40px;
+    display: flex;
+    justify-content: space-evenly;
+    gap: 20px;
+    align-items: center;
+}
+
+.card{
+    width: 30%;
+    background-color: goldenrod;
+    padding: 10px;
+    text-align: center;
+    border-radius: 20px;
+    font-size: 20px;
+}
