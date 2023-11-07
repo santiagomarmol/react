@@ -1,0 +1,31 @@
+Apuntes de clase 2 
+
+FUNCIONES Y EVENTOS:
+
+
+
+Los eventos son cosas que pasan en el sistema que estás programando, 
+el cual se encarga de avisarte para que tu código pueda hacer algo al respecto. 
+Por ejemplo, si el usuario hace clic en el botón de una página web, puede que quieras 
+reaccionar a esa acción y mostrar una tarjeta con información. en este caso al ejecutar un evento 
+este ejecuta una funcion la cual realizara lo que hayamos puesto dentro de la funcion 
+
+ejemplo:
+
+<button>Cambiar el color</button>
+
+const btn = document.querySelector("button");
+
+function random(number) {
+  return Math.floor(Math.random() * (number + 1));
+}
+
+btn.addEventListener("click", () => {
+  const rndCol = `rgb(${random(255)}, ${random(255)}, ${random(255)})`;
+  document.body.style.backgroundColor = rndCol;
+});
+
+
+este codigo hace que al precionar el btn se ejecutara una funcion la cual 
+cambiara el color de fondo
+
