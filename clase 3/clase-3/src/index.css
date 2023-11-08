@@ -1,0 +1,12 @@
+
+body {
+  margin: 0;
+  background-color: #242424;
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  color: aliceblue;
+}
+
+h1 {
+  font-size: 3.2rem;
+  line-height: 1.1;
+}

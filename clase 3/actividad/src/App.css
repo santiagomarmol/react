@@ -1,0 +1,25 @@
+.App{
+    width: 100%;
+    padding: 10px 40px;
+    display: flex;
+    justify-content: space-evenly;
+    gap: 20px;
+    align-items: center;
+    color: aliceblue;
+}
+
+button{
+    padding: 10px 20px;
+    font-size: 20px;
+    background-color: rgb(110, 110, 234);
+    color: aliceblue;
+
+}
+
+.rojo{
+    color: brown;
+}
+
+.verde{
+    color: green;
+}

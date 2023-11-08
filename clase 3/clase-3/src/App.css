@@ -1,0 +1,33 @@
+.contador{
+    width: 300px;
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+}
+
+.sumador{
+    width: 1000px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    padding: 20px;
+    margin: 30px auto;
+    flex-wrap: wrap;
+
+}
+
+input{
+    padding: 10px 20px;
+    color: brown;
+    font-size: 20px;
+    font-weight: 700;
+    outline: none;
+}
+
+button{
+    padding: 10px 20px;
+    color: rgb(33, 32, 32);
+    font-size: 20px;
+    font-weight: 700;
+}
