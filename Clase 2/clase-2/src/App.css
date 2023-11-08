@@ -1,0 +1,15 @@
+.App{
+    background-color: goldenrod;
+    width: 100px;
+    padding: 10px;
+    cursor: pointer;
+    text-align: center;
+    font-size: 50px;
+    font-weight: 700;
+    color: black;
+    user-select: none;
+}
+
+img{
+    width: 200px;
+}
