@@ -50,14 +50,14 @@ function App() {
     // </>
 
     <>
-    <h1>Total a Pagar : 0</h1>
+    <h1>Total a Pagar : {total}</h1>
     <div className='App'>
-    <Card nombre={reyes[1].nombre} ft={ft2} precio={reyes[1].precio} setTotal={setTotal} />
-    <Card nombre={reyes[0].nombre} ft={ft1} precio={reyes[0].precio} setTotal={setTotal} />
-    <Card nombre={reyes[2].nombre} ft={ft3} precio={reyes[2].precio} setTotal={setTotal} />
-    <Card nombre={reyes[3].nombre} ft={ft4} precio={reyes[3].precio} setTotal={setTotal} />
-    <Card nombre={reyes[4].nombre} ft={ft5} precio={reyes[4].precio} setTotal={setTotal} />
-    <Card nombre={reyes[5].nombre} ft={ft6} precio={reyes[5].precio} setTotal={setTotal} />
+    <Card nombre={reyes[0].nombre} ft={ft1} precio={reyes[0].precio} color={reyes[0].color} setTotal={setTotal} />
+    <Card nombre={reyes[1].nombre} ft={ft2} precio={reyes[1].precio} color={reyes[1].color} setTotal={setTotal} />
+    <Card nombre={reyes[2].nombre} ft={ft3} precio={reyes[2].precio} color={reyes[2].color} setTotal={setTotal} />
+    <Card nombre={reyes[3].nombre} ft={ft4} precio={reyes[3].precio} color={reyes[3].color} setTotal={setTotal} />
+    <Card nombre={reyes[4].nombre} ft={ft5} precio={reyes[4].precio} color={reyes[4].color} setTotal={setTotal} />
+    <Card nombre={reyes[5].nombre} ft={ft6} precio={reyes[5].precio} color={reyes[5].color} setTotal={setTotal} />
     </div>
     </>
   )
