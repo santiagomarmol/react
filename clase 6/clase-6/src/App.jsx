@@ -1,49 +1,44 @@
-import React from 'react'
-import './componentes/MapComponente'
-import Actividad_2 from './actividades/Actividad_2'
 import './App.css'
-
-
+import ApiActividad from './actividades/ApiActividad';
 
 function App() {
-  const reyes = [
-    {
-        nombre: "Atanagildo",
-        reinado: 15,
-        vacasComidas: 9
-    }, {
-        nombre: "Ervigio",
-        reinado: 7,
-        vacasComidas: 3
-    }, {
-        nombre: "Ataúlfo",
-        reinado: 5,
-        vacasComidas: 16
-    }, {
-        nombre: "Leovigildo",
-        reinado: 18,
-        vacasComidas: 3
-    }, {
-        nombre: "Sisebuto",
-        reinado: 9,
-        vacasComidas: 13
-    }, {
-        nombre: "Recesvinto",
-        reinado: 19,
-        vacasComidas: 11
-    }, {
-        nombre: "Teodorico",
-        reinado: 33,
-        vacasComidas: 12
-    }
-]
+  // const [datos, setDatos] = useState(null);
+  // const [error, setError] = useState(null);
+
+  // useEffect(() => {
+  //   fetch('https://randomuser.me/api/?results=3')
+  //     .then((respuesta) => respuesta.json())
+  //     .then((datos) => setDatos(datos.results))
+  //     .catch((error) => setError(error));
+  // }, []);
+
+
+
 
   return (
+    // <>
+    //   <div className="">
+    //     {datos?.map((valor) => (
+    //       <div className="" key={valor.email}>
+    //         <h1>
+    //           {valor.name.first} {valor.name.last}
+    //         </h1>
+    //         <div className="img">
+    //           <img src={valor.picture.large} alt="" />
+    //         </div>
+    //       </div>
+    //     ))}
+    //   </div>
+    // </>
 
-    <div className='App'>
-    <Actividad_2 reyes={reyes}/>
-    </div>
-  )
+    <>
+     <div className="">
+     <ApiActividad/>
+     </div>
+    </>
+  );
+
+
 }
 
 export default App
