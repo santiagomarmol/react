@@ -1,0 +1,61 @@
+div{
+  text-align: center;
+}
+
+.error-container {
+  text-align: center;
+  padding: 50px;
+  font-family: Arial, sans-serif;
+}
+
+.error-container h1 {
+  font-size: 72px;
+  color: #555;
+}
+
+.error-container p {
+  font-size: 24px;
+  color: #888;
+}
+
+
+.menu {
+  background-color: #f1f1f1;
+  width: 100vw;
+  margin-bottom: 20px;
+}
+
+.menu ul {
+  margin: 0;
+  display: flex;
+  justify-content: space-evenly;
+  gap: 30px;
+  
+}
+
+.menu li {
+  padding: 15px 20px;
+  display: inline;
+  margin-right: 20px;
+  
+}
+
+.menu li a {
+  text-decoration: none;
+  color: #333;
+  padding: 15px 20px;
+}
+
+.menu li a:hover {
+  color: #4682B4;
+}
+
+.activado{
+  border-bottom: 4px solid #4682B4;
+  color: #333;
+}
+
+.reyes img{
+  width: 30%;
+  margin-bottom: 25px;
+}
